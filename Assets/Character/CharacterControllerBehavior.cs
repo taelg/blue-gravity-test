@@ -8,7 +8,7 @@ public class CharacterControllerBehavior : MonoBehaviour
     private readonly string ANIMATOR_HORIZONTAL_KEY = "horizontal_direction";
     private readonly string ANIMATOR_VERTICAL_KEY = "vertical_direction";
 
-    [Header("Base Stats")]
+    [Header("Configurable")]
     [SerializeField] private float moveSpeed = 1.5f;
 
     [Header("Internal")]
