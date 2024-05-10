@@ -218,7 +218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1.5
-  rigidybody: {fileID: 259002280}
+  rigidbody2d: {fileID: 259002280}
   animator: {fileID: 259002283}
 --- !u!4 &259002282
 Transform:
