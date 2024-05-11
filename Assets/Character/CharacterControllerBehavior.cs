@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -31,8 +32,10 @@ public class CharacterControllerBehavior : MonoBehaviour
     }
 
     private void AnimateMovement(float horizontalInput, float verticalInput) {
-        animator.SetInteger(ANIMATOR_HORIZONTAL_KEY, (int) horizontalInput);
-        animator.SetInteger(ANIMATOR_VERTICAL_KEY, (int) verticalInput);
+        int horizontalInputRounded = (int) (horizontalInput > 0 ? Math.Ceiling(horizontalInput) : Math.Floor(horizontalInput));
+        int verticalInputRounded = (int) (verticalInput > 0 ? Math.Ceiling(verticalInput) : Math.Floor(verticalInput));
+        animator.SetInteger(ANIMATOR_HORIZONTAL_KEY, horizontalInputRounded);
+        animator.SetInteger(ANIMATOR_VERTICAL_KEY, verticalInputRounded);
     }
 
 
