@@ -723,6 +723,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: cloth_blank
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef60422dc0741304c8c52f5487cb4426
+      internalID: 870769902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -766,6 +787,7 @@ TextureImporter:
       char_a_p1_1out_boxr_v01_7: -1259260737
       char_a_p1_1out_boxr_v01_8: 2041869696
       char_a_p1_1out_boxr_v01_9: -481961587
+      cloth_blank: 870769902
       underware_male_idle_facing_down: -1489818409
       underware_male_idle_facing_left: -209693397
       underware_male_idle_facing_right: -1517925669
